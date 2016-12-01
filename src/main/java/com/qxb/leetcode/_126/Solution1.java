@@ -9,6 +9,8 @@ public class Solution1 {
     List<List<String>> results;
     List<String> list;
     Map<String,List<String>> map;
+
+    //leetcode solutoin
     public List<List<String>> findLadders(String start, String end, Set<String> dict) {
         results= new ArrayList<List<String>>();
         if (dict.size() == 0)
